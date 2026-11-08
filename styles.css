@@ -1,0 +1,57 @@
+body {
+    font-family: Times New Roman, serif;
+    background-color: white;
+   
+}
+
+.container {
+    width: 70%;
+    max-width: 750px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+.vote-buttons {
+    margin: 40px 0;
+}
+
+.vote-buttons button {
+    font-size: 40px;
+    padding: 5px 30px;
+    margin:5px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    padding: 30px;
+    font-size: 15px;
+}
+
+.comment-buttons {
+    margin-top: 5px;
+}
+
+.comment-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#comments-section {
+    margin-top: 20px;
+}
+
+.comment {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
